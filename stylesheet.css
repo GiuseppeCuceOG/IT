@@ -1,0 +1,96 @@
+body {
+	background-color: #444;
+}
+
+h1 , #meToo{
+	text-align: center;
+	font-family: "Hanging Letters";
+	font-size: 140px;
+	text-shadow: -8px 5px 5px #000;
+	color: #FB4545;
+}
+
+#meToo {
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-family: "KG A Little Swag";
+	font-size: 5.3em;
+	color: #000;
+	margin-left: 20px;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: #FB4545;
+	margin-top: 30px;
+	margin-bottom: 26px;
+	border-radius: 10px;
+}
+
+div {
+	margin: 25px 0px 25px 0px;
+}
+
+.row {
+	height: 550px;
+}
+
+p {
+	font-family: "Candara";
+	font-size: 24px;
+	color: #000;
+	margin-top: 10px;
+}
+
+.col-md-4 img {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	padding: 10px;
+}
+
+.col-md-4, .col-md-3 {
+	text-align: center;
+	display: inline-block;
+}
+
+.col-md-3 img {
+	width: 230px;
+	height: 230px;
+	border-radius: 115px;
+	padding: 10px;
+}
+
+.col-md-4 img:hover {
+	width: 350px;
+	height: 350px;
+	border-radius: 175px;
+}
+
+.col-md-3 img:hover {
+	width: 300px;
+	height: 300px;
+	border-radius: 175px;
+}
+
+img:hover {
+	box-shadow: 0px 0px 8px 8px #111;
+};
+
+@font-face {
+	font-family: "Hanging Letters";
+	src: url(./font/Hanged Letters.ttf);
+}
+
+@font-face {
+	font-family: "Hanging Letters";
+	src: url(./font/KGALittleSwag.ttf);
+}
+
+@font-face {
+	font-family: "Candara";
+	src: url(../../../Windows/Fonts/Cantara.ttf);
+}
